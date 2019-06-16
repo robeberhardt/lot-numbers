@@ -1,0 +1,30 @@
+{
+  "name": "cc-lot-numbers",
+  "version": "1.0.0",
+  "description": "creates lot numbers for Columbia Care ProDose product orders",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tsc && mocha --timeout 5000 -r ts-node/register src/tests/**/*",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "dependencies": {
+    "base62": "^2.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.0.8",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "prettier": "^1.18.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.17.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.2"
+  }
+}
